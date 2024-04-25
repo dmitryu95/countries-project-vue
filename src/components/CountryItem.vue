@@ -51,12 +51,68 @@ export default {
     height: 336px;
     margin: 0 55px 40px 55px;
     align-items: center;
-    border-radius: 12px;
+    border-radius: 5px;
     box-shadow: 0 0 9px 2px rgba(0, 0, 0, 0.05);
     flex-direction: column;
     &__flag-img {
       height: 160px;
       width: 264px;
+      border-radius: 5px 5px 0 0;
+      box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.25);
+    }
+    &__content {
+      width: 216px;
+      align-items: baseline;
+      margin-top: 24px;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 46px;
+    }
+    &__name {
+      margin: 0 0 16px 0;
+      padding: 0;
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 26px;
+      color:  #111517;
+    }
+    &__text-block {
+      display: flex;
+      margin-bottom: 8px;
+      &_name {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 16px;
+        margin-right: 3px;
+      }
+      &_value {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 16px;
+      }
+    }
+  }
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (min-width: 375px) {
+  .country-item {
+    display: flex;
+    width: 264px;
+    height: 336px;
+    margin: 0 75px 75px 0;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 0 9px 2px rgba(0, 0, 0, 0.05);
+    flex-direction: column;
+    &__flag-img {
+      height: 160px;
+      width: 264px;
+      border-radius: 5px 5px 0 0;
+      box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.25);
     }
     &__content {
       width: 216px;

@@ -61,4 +61,45 @@ export default {
     }
   }
 }
+
+@media (min-width: 375px) {
+  .country {
+    &__border-block {
+      margin: 68px 0 0 0;
+      width: 100%;
+      display: flex;
+      align-items: baseline;
+    }
+    &__border-title {
+      line-height: 24px;
+      font-weight: 600;
+      font-size: 16px;
+      color: #111517;
+      padding: 0;
+      display: flex;
+      min-width: 140px;
+      height: 33px;
+    }
+    &__border-list {
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+    }
+    &__border-name {
+      font-size: 12px;
+      line-height: 16px;
+      font-weight: 300;
+      color: #111517;
+      width: 96px;
+      height: 28px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 5px;
+      border-radius: 3px;
+      padding: 0;
+      box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.25);
+    }
+  }
+}
 </style>
