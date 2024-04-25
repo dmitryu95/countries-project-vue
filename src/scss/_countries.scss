@@ -1,0 +1,25 @@
+$mobile-width: 375px;
+$desktop-width: 1440px;
+
+@media (max-width: $mobile-width) {
+  .countries {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &__list {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+    }
+    &__item {
+      display: flex;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
+
+

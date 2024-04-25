@@ -2,6 +2,8 @@
 
 ## Project setup
 ```
+npm use 20
+
 npm install
 ```
 
